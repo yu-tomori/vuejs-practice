@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>速習Vue.js</title>
+	</head>
+	<body>
+		<!--ページ本体-->
+		<div id="app">
+			<form>
+				<label for="time">50m走タイム:</label>
+				<input type="text" id="time" v-model.lazy="time" v-on:change="onchange" />
+				<p>{{ time }}</p>
+			</form>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+		<script type="text/javascript" src="./model_number.js"></script>
+	</body>
+</html>

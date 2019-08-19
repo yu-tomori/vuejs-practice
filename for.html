@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>速習Vue.js</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+	
+	</head>
+	<body>
+		<!--ページ本体-->
+		<div id="app">
+			<table class="table">
+				<th>ISBN</th>
+				<th>書名</th>
+				<th>価格</th>
+				<tr v-for="b in books">
+					<td>{{ b.isbn }}</td>
+					<td>{{ b.title }}</td>
+					<td>{{ b.price }}</td>
+				</tr>
+			</table>
+			<br>
+			<table class="table">
+				<th>ISBN</th>
+				<th>書名</th>
+				<th>価格</th>
+				<tr v-for="b in cheapBooks">
+					<td>{{ b.isbn }}</th>
+					<td>{{ b.title }}</td>
+					<td>{{ b.price }}</th>
+				</tr>
+			</table>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+		<script type="text/javascript" src="./for.js"></script>
+	</body>
+</html>

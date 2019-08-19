@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<title>速習Vue.js</title>
+	</head>
+	<body>
+		<!--ページ本体-->
+		<div id="app">
+			<form>
+				<label for="kb">1KB:</form>
+				<input type="radio" id="kb" v-model="unit" v-on:change="onchange" v-bind:value="{ name: 'キロバイト', size: 1024 }" /><br>
+				<label for="mb">1MB:</label>
+				<input type="radio" id="mb" v-model="unit" v-on:change="onchange" v-bind:value="{ name:'メガバイト', size:1048576 }" /><br>
+				<label for="gb">1GB:</label>
+				<input type="radio" id="gb" v-model="unit" v-on:change="onchange" v-bind:value="{ name:'ギガバイト', size:1073742000 }" />
+			</form>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+		<script type="text/javascript" src="./model_obj.js"></script>
+	</body>
+</html>

@@ -4,6 +4,15 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
+        <router-link to="/articles">Article</router-link>
+      </li>
+      <li>
+        <router-link to="/top">Top</router-link>
+      </li>
+      <li>
+        <router-link to="/">HelloWorld</router-link>
+      </li>
+      <li>
         <a
           href="https://vuejs.org"
           target="_blank"

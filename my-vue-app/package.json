@@ -1,8 +1,8 @@
 {
   "name": "my-vue-app",
   "version": "1.0.0",
-  "description": "this is my first vue application.",
-  "author": "yu",
+  "description": "A Vue.js project",
+  "author": "yu <peacetomori1118@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

@@ -1,6 +1,6 @@
 # my-vue-app
 
-> this is my first vue application.
+> A Vue.js project
 
 ## Build Setup
 
